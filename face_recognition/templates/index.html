@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<title>Smart Doorbell UI</title>
+</head>
+
+<body>
+<div align="center">
+<h1>Smart Doorbell UI</h1>
+<img src="{{ url_for('video_feed') }}">
+
+<form method="post">
+<input type="submit" name="unlock" value="Unlock Door">
+</form>
+
+<div>
+<p id="unlock" style="font-size:14px;"> {{ unlock }} </p>
+The person at the door: <div id="person_name"></div>
+</div>
+ 
+<a href="{{ url_for('authorize_person') }}">Click here to authorize a person. </a></br>
+<a href="{{ url_for('deauthorize_person') }}">Click here to deauthorize a person. </a>
+</div>
+
+<script src="{{ url_for('static', filename='jquery-3.3.1.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='ajax.js') }}"></script>
+</body>
+</html>

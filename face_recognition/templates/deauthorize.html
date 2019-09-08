@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<title>Smart Doorbell UI</title>
+</head>
+
+<body>
+<div align="center">
+<h1>Smart Doorbell UI</h1>
+<table>
+<tr>
+<th> Username </th>
+<th> Authorized </th>
+</tr>
+
+{% for user in users %}
+	<tr><td>{{user.name}}</td><td>{{user.is_authorized}}</td></tr>
+{% endfor %}
+
+</table> 
+
+<p>Please type in the name of the user you would like to deauthorize and click "Deauthorize User". </p>
+<form method="post">
+<input type="text" name="username" />
+<input type="submit" name="deauthorize" value="Deauthorize User" />
+</form>
+
+</body>
+</html>
