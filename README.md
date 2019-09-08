@@ -11,6 +11,6 @@ Partnered with Christopher Yip in this project. Thanks for all of his help.
 
 ## Media
 Here are two screenshots of the face recognition module and a demo video.
+<p align="center">https://youtu.be/lT3gQQcdFoE<p>
 <img src="https://user-images.githubusercontent.com/22041191/64491733-b1d4e880-d239-11e9-8ebb-e75c0a8a0db3.png">
 <img src="https://user-images.githubusercontent.com/22041191/64491733-b1d4e880-d239-11e9-8ebb-e75c0a8a0db3.png">
-https://youtu.be/lT3gQQcdFoE
