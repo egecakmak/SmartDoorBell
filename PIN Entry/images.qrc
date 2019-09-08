@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/door">
+        <file>OpenDoor.png</file>
+        <file>CloseDoor.jpg</file>
+    </qresource>
+</RCC>
